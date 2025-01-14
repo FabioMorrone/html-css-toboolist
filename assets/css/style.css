@@ -1,41 +1,50 @@
 :root {
-    --toobolist-dark: #444851;
-    --toobolist-primary: #47adf1;
-    --toobolist-2: #9c72e4;
-    --toobolist-3: #64c0a9;
-    --toobolist-4: #f29e33;
-    --toobolist-5: #d863a0;
-    --toobolist-6: #b0c926;
-    --toobolist-X: #eb5952;
-    --toobolist-V: #6fc6b1;
+    --toboolist-dark: #444851;
+    --toboolist-primary: #47adf1;
+    --toboolist-2: #9c72e4;
+    --toboolist-3: #64c0a9;
+    --toboolist-4: #f29e33;
+    --toboolist-5: #d863a0;
+    --toboolist-6: #b0c926;
+    --toboolist-X: #eb5952;
+    --toboolist-V: #6fc6b1;
 }
 
-.image{
+.image {
     margin-left: 1rem;
-    float:left;
+    float: left;
 }
 
 h1 {
     font-size: 3rem;
 }
 
-.button1
-{
+.button1 {
     margin-left: 15rem;
     margin-top: 5rem;
-    border-radius: 3px;
+    border-radius: 5px;
     padding: 5px;
     background-color: #47adf1;
+    border-color: #47adf1;
 }
 
-.button2
-{
-    border-radius: 3px;
+.button2 {
+    border-radius: 5px;
     padding: 5px;
     background-color: #ffffff;
-
+    border-color: #ffffff;
 }
 
-.drop_down{
+.table1{
+    margin-left: 15px
+    
+}
 
+.button_all1{
+    border-radius: 100px;
+}
+
+
+.button_all{
+    border-radius: 5px;
 }
