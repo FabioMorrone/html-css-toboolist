@@ -1,33 +1,37 @@
-:root
-{
---toobolist-dark: #444851;
---toobolist-primary: #47adf1;
---toobolist-2: #9c72e4;
---toobolist-3: #64c0a9;
---toobolist-4: #f29e33;
---toobolist-5: #d863a0;
---toobolist-6: #b0c926;
---toobolist-X: #eb5952;
---toobolist-V: #6fc6b1;
+:root {
+    --toobolist-dark: #444851;
+    --toobolist-primary: #47adf1;
+    --toobolist-2: #9c72e4;
+    --toobolist-3: #64c0a9;
+    --toobolist-4: #f29e33;
+    --toobolist-5: #d863a0;
+    --toobolist-6: #b0c926;
+    --toobolist-X: #eb5952;
+    --toobolist-V: #6fc6b1;
 }
 
-*{
-    margin:0,25;
-    padding:0,25;
-    box-sizing: border-box;
-
+.image{
+    margin-left: 1rem;
+    float:left;
 }
 
-
-
-img 
-{
-    border:0rem;
-    float: left;
-}
-
-h1
-{
-    
+h1 {
     font-size: 3rem;
+}
+
+.button1
+{
+    margin-left: 15rem;
+    margin-top: 5rem;
+    border-radius: 3px;
+    padding: 5px;
+    background-color: #47adf1;
+}
+
+.button2
+{
+    border-radius: 3px;
+    padding: 5px;
+    background-color: #ffffff;
+    
 }
